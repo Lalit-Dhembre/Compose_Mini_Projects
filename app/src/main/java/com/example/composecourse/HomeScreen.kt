@@ -46,6 +46,9 @@ fun HomeScreen(
             CourseModel(navController = navController, Name = "Password Field", route = Screens.PasswordField.route),
             CourseModel(navController = navController, Name = "Gradient Button", route = Screens.GradientButton.route),
             CourseModel(navController = navController, Name = "Lazy Column", route = Screens.LazyColumn.route),
+            CourseModel(navController = navController, Name = "Custom Widget", route = Screens.CustomWidget.route),
+            CourseModel(navController = navController, Name = "Bottom App Bar", route = Screens.BottomAppBar.route),
+            CourseModel(navController = navController, Name = "Shimmer", route = Screens.Shimmer.route),
         )
         LazyColumn(
             modifier = Modifier

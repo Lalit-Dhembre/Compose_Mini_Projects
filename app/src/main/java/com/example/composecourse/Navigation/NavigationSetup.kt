@@ -4,6 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import com.example.composecourse.BottomNavigation.Screen
 import com.example.composecourse.CoilImage.CoilImage
 import com.example.composecourse.ExpandedCard.ExpandedCard
 import com.example.composecourse.GoogleButton.GoogleButton
@@ -12,8 +13,10 @@ import com.example.composecourse.HomeScreen
 import com.example.composecourse.LazyColumn.CodeCardOfLazyColumn
 import com.example.composecourse.LazyColumn.LazyColumn1
 import com.example.composecourse.PasswordField.PasswordField
+import com.example.composecourse.ShimmerEffect.Shimmer
 import com.example.composecourse.TextCustomisation.TextCustomisation
 import com.example.composecourse.TextSelection.TextSelection
+import com.example.composecourse.customwidget.CustomWidgetScreen
 
 @Composable
 fun SetupNavigation(
@@ -77,6 +80,16 @@ fun SetupNavigation(
         ){
             CodeCardOfLazyColumn()
         }
-
+        composable(
+            route = Screens.CustomWidget.route
+        ){
+            CustomWidgetScreen()
+        }
+        composable(route = Screens.BottomAppBar.route){
+            Screen()
+        }
+        composable(route = Screens.Shimmer.route){
+            Shimmer()
+        }
     }
 }

@@ -1,6 +1,7 @@
 package com.example.composecourse
 
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.clickable
@@ -14,10 +15,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.navigation.NavController
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import com.example.composecourse.Navigation.Screens
 import com.example.composecourse.Navigation.SetupNavigation
 import com.example.composecourse.ui.theme.ComposeCourseTheme
 
@@ -25,6 +26,7 @@ class MainActivity : ComponentActivity() {
     lateinit var navController: NavHostController
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        installSplashScreen().also { Log.d("Splash","Splash Screen Launched") }
         setContent {
             ComposeCourseTheme {
                 navController = rememberNavController()

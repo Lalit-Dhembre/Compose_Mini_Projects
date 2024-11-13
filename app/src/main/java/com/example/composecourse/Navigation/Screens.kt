@@ -19,4 +19,8 @@ sealed class Screens(val route : String) {
 
     object LazyColumn : Screens(route = "lazy_column")
     object CodeCard : Screens(route = "lazy_column_code_card")
+
+    object CustomWidget : Screens(route = "customwidget")
+    object BottomAppBar : Screens(route = "bottomappbar")
+    object Shimmer : Screens(route = "shimmer")
 }

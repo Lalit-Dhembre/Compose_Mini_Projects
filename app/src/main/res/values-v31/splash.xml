@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.ComposeCourse.MySplash" parent="Theme.ComposeCourse">
+                <item name="windowSplashScreenBackground">#FFFFFF</item>
+                <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+                <item name="windowSplashScreenAnimationDuration">200</item>
+                <item name="postSplashScreenTheme">@style/Theme.ComposeCourse</item>
+
+    </style>
+</resources>
