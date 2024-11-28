@@ -46,11 +46,9 @@ A shimmer widget to indicate loading states with a sleek animation effect.
 
 ## Screenshots
 
-![image](https://github.com/user-attachments/assets/2560db56-4c11-4fca-9c40-e81ff1998db1)
-## LIST SCREEN
+![image](https://github.com/user-attachments/assets/2560db56-4c11-4fca-9c40-e81ff1998db1) ![image](https://github.com/user-attachments/assets/751110b5-970a-4157-aa1c-befb5ca720be)
 
-![image](https://github.com/user-attachments/assets/751110b5-970a-4157-aa1c-befb5ca720be)
-## SHIMMER EFFECT PREVIEW AND CODE
+## LIST SCREEN                                                                              ## SHIMMER EFFECT PREVIEW AND CODE
 
 ![image](https://github.com/user-attachments/assets/cb6b3d00-ada0-47c8-8775-2582c505d87d)
 ## LOGO BUTTON
